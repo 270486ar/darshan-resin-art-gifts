@@ -13,7 +13,7 @@ export interface Product {
   featured?: boolean;
   isNew?: boolean;
 }
-
+const BASE = import.meta.env.BASE_URL;
 export const PRODUCT_CATEGORIES: string[] = [
   "Resin Name Boards",
   "Wedding Gifts",
@@ -37,7 +37,7 @@ export const products: Product[] = [
     category: "Resin Name Boards",
     description: "Elegant handcrafted resin name board finished with 24K gold flakes and a glossy marbled base, personalised with your family name.",
     price: 1899,
-    image: "/images/products/product-01.svg",
+    image: `${BASE}images/products/product-01.svg`,
     featured: true,
     isNew: true,
   },
@@ -48,7 +48,7 @@ export const products: Product[] = [
     category: "Resin Name Boards",
     description: "Premium marble-effect resin door name plate with deep purple and gold veining, weatherproof and long-lasting.",
     price: 1599,
-    image: "/images/products/product-02.svg",
+    image: `${BASE}images/products/product-02.svg`,
     featured: false,
     isNew: false,
   },
@@ -59,7 +59,7 @@ export const products: Product[] = [
     category: "Resin Name Boards",
     description: "Dual-name resin plaque adorned with hand-placed dried flowers, perfect for newlywed homes.",
     price: 2099,
-    image: "/images/products/product-03.svg",
+    image: `${BASE}images/products/product-03.svg`,
     featured: false,
     isNew: false,
   },
@@ -70,7 +70,7 @@ export const products: Product[] = [
     category: "Wedding Gifts",
     description: "A stunning resin art piece capturing the couple's initials encased in a gold-flecked swirl, a timeless wedding keepsake.",
     price: 2499,
-    image: "/images/products/product-04.svg",
+    image: `${BASE}images/products/product-04.svg`,
     featured: false,
     isNew: false,
   },
@@ -81,7 +81,7 @@ export const products: Product[] = [
     category: "Wedding Gifts",
     description: "Preserve your wedding invitation forever inside a crystal-clear resin frame with golden accents.",
     price: 1999,
-    image: "/images/products/product-05.svg",
+    image: `${BASE}images/products/product-05.svg`,
     featured: false,
     isNew: false,
   },
@@ -92,7 +92,7 @@ export const products: Product[] = [
     category: "Wedding Gifts",
     description: "Set of two matching resin coasters with entwined gold rings design, a thoughtful wedding gift.",
     price: 1299,
-    image: "/images/products/product-06.svg",
+    image: `${BASE}images/products/product-06.svg`,
     featured: true,
     isNew: false,
   },
@@ -103,7 +103,7 @@ export const products: Product[] = [
     category: "Anniversary Gifts",
     description: "Custom resin wall art highlighting your special anniversary date amid a galaxy of gold and purple swirls.",
     price: 2199,
-    image: "/images/products/product-07.svg",
+    image: `${BASE}images/products/product-07.svg`,
     featured: false,
     isNew: false,
   },

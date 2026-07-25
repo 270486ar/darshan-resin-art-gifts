@@ -35,7 +35,7 @@ export default function Footer() {
   return (
     <footer className="relative mt-24 overflow-hidden bg-royal-950 text-ivory">
       <img
-        src="/images/backgrounds/waves.svg"
+        src={`${BASE}images/backgrounds/waves.svg`}
         alt=""
         aria-hidden="true"
         className="absolute top-0 left-0 w-full opacity-40 -translate-y-1/2 pointer-events-none select-none"
@@ -45,7 +45,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Link to="/" className="flex items-center gap-3 mb-4 focus-ring rounded-lg w-fit">
-              <img src="/images/logo/logo.svg" alt={`${business.name} logo`} className="h-12 w-12" />
+              src={`${BASE}images/logo/logo.svg`} alt={`${business.name} logo`} className="h-12 w-12" />
               <span className="font-display text-xl font-bold text-gold-200">{business.shortName}</span>
             </Link>
             <p className="text-sm text-ivory/70 leading-relaxed max-w-xs">{business.description}</p>

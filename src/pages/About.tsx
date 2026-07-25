@@ -62,7 +62,7 @@ export default function About() {
             {["gallery-05", "gallery-08", "gallery-12", "gallery-15"].map((g) => (
               <div key={g} className="aspect-square overflow-hidden rounded-2xl glass p-2">
                 <img
-                  src={`/images/gallery/${g}.svg`}
+                  src={`${import.meta.env.BASE_URL}images/gallery/${g}.svg`}
                   alt="Resin art crafted by Darshan Resin Art & Gifts"
                   className="h-full w-full rounded-xl object-cover"
                   loading="lazy"

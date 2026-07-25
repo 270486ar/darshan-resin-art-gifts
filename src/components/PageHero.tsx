@@ -7,7 +7,8 @@ interface PageHeroProps {
   image?: string;
 }
 
-export default function PageHero({ eyebrow, title, description, image = "/images/hero/hero-03.svg" }: PageHeroProps) {
+const BASE = import.meta.env.BASE_URL;
+export default function PageHero({ eyebrow, title, description, image = `${BASE}images/hero/hero-03.svg` }: PageHeroProps) {
   return (
     <section className="relative overflow-hidden py-24 sm:py-28">
       <img src={image} alt="" aria-hidden="true" className="absolute inset-0 h-full w-full object-cover" />

@@ -4,34 +4,35 @@ import { Link } from "react-router-dom";
 import { FaWhatsapp } from "react-icons/fa";
 import { ChevronLeft, ChevronRight, Sparkles } from "lucide-react";
 import { buildWhatsAppLink } from "../data/business";
+const BASE = import.meta.env.BASE_URL;
 
 const SLIDES = [
   {
-    image: "/images/hero/hero-01.svg",
+    image: `${BASE}images/hero/hero-01.svg`,
     eyebrow: "Handcrafted With Love in Puducherry",
     title: "Resin Art That Tells Your Story",
     subtitle: "Personalised name boards, wedding keepsakes & premium gifts poured, layered and polished by hand.",
   },
   {
-    image: "/images/hero/hero-02.svg",
+    image: `${BASE}images/hero/hero-02.svg`,
     eyebrow: "Festival Offer — Flat 20% Off",
     title: "Gifts As Golden As Your Memories",
     subtitle: "Explore our gold-leaf resin collection, crafted for milestones worth celebrating.",
   },
   {
-    image: "/images/hero/hero-03.svg",
+    image: `${BASE}images/hero/hero-03.svg`,
     eyebrow: "New Wedding Collection",
     title: "Timeless Keepsakes For Two",
     subtitle: "Custom couple name boards and resin art designed to mark your forever.",
   },
   {
-    image: "/images/hero/hero-04.svg",
+    image: `${BASE}images/hero/hero-04.svg`,
     eyebrow: "Premium Collection",
     title: "Luxury, Poured By Hand",
     subtitle: "Discover statement wall art and décor finished with genuine gold leaf accents.",
   },
   {
-    image: "/images/hero/hero-05.svg",
+    image: `${BASE}images/hero/hero-05.svg`,
     eyebrow: "Trending This Month",
     title: "Handcrafted Gifts, Lasting Memories",
     subtitle: "From baby keepsakes to corporate gifting — every piece is one of a kind.",

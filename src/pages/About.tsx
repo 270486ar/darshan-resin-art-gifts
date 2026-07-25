@@ -31,7 +31,7 @@ export default function About() {
         eyebrow="Our Journey"
         title="The Story Behind Darshan Resin Art"
         description="A small studio in Villianur, Puducherry, pouring big love into every handcrafted piece."
-        image=`${import.meta.env.BASE_URL}images/hero/hero-04.svg'
+        image="/images/hero/hero-04.svg"
       />
 
       <section className="container-xl py-20 sm:py-28">
@@ -62,7 +62,7 @@ export default function About() {
             {["gallery-05", "gallery-08", "gallery-12", "gallery-15"].map((g) => (
               <div key={g} className="aspect-square overflow-hidden rounded-2xl glass p-2">
                 <img
-                  src={`${import.meta.env.BASE_URL}images/gallery/${g}.svg`}
+                  src={`/images/gallery/${g}.svg`}
                   alt="Resin art crafted by Darshan Resin Art & Gifts"
                   className="h-full w-full rounded-xl object-cover"
                   loading="lazy"
@@ -92,7 +92,7 @@ export default function About() {
 
       {/* Process */}
       <section className="relative py-20 sm:py-28 bg-royal-gradient overflow-hidden">
-        <img src=`${import.meta.env.BASE_URL}images/backgrounds/abstract-pattern.svg' alt="" aria-hidden="true" className="absolute inset-0 h-full w-full object-cover opacity-30" />
+        <img src="/images/backgrounds/abstract-pattern.svg" alt="" aria-hidden="true" className="absolute inset-0 h-full w-full object-cover opacity-30" />
         <div className="container-xl relative">
           <ScrollReveal className="text-center max-w-2xl mx-auto">
             <span className="section-eyebrow text-gold-300">How It's Made</span>

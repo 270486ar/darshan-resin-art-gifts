@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaInstagram, FaYoutube, FaWhatsapp } from "react-icons/fa";
 import { MapPin, Mail, Phone, Send, CheckCircle2 } from "lucide-react";
 import { business, buildWhatsAppLink } from "../data/business";
+const BASE = import.meta.env.BASE_URL;
 
 const QUICK_LINKS = [
   { to: "/about", label: "About Us" },

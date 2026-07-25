@@ -10,6 +10,7 @@ import TestimonialCard from "../components/TestimonialCard";
 import { products, PRODUCT_CATEGORIES } from "../data/products";
 import { testimonials } from "../data/testimonials";
 import { business, buildWhatsAppLink } from "../data/business";
+const BASE = import.meta.env.BASE_URL;
 
 const FEATURED = products.filter((p) => p.featured).slice(0, 8);
 
@@ -51,14 +52,14 @@ export default function Home() {
           <ScrollReveal className="relative">
             <div className="relative aspect-square max-w-md mx-auto rounded-[2rem] overflow-hidden glass-strong p-3">
               <img
-                src="/images/gallery/gallery-03.svg"
+                src={`${BASE}images/gallery/gallery-03.svg`}
                 alt="Handcrafted resin art piece from Darshan Resin Art & Gifts"
                 className="h-full w-full rounded-[1.5rem] object-cover"
                 loading="lazy"
               />
             </div>
             <img
-              src="/images/backgrounds/floral-corner.svg"
+              src={`${BASE}images/backgrounds/floral-corner.svg`}
               alt=""
               aria-hidden="true"
               className="absolute -bottom-8 -left-8 w-28 opacity-80 hidden sm:block"
@@ -81,7 +82,7 @@ export default function Home() {
 
       {/* Counters */}
       <section className="relative py-16 bg-royal-gradient">
-        <img src="/images/backgrounds/waves.svg" alt="" aria-hidden="true" className="absolute inset-0 w-full opacity-20" />
+        <img src={`${BASE}images/backgrounds/waves.svg`} alt="" aria-hidden="true" className="absolute inset-0 w-full opacity-20" />
         <div className="container-xl relative grid grid-cols-2 gap-8 sm:grid-cols-4">
           <Counter value={2500} suffix="+" label="Happy Customers" />
           <Counter value={30} suffix="+" label="Unique Designs" />
@@ -150,7 +151,7 @@ export default function Home() {
       {/* CTA banner */}
       <section className="container-xl pb-24">
         <ScrollReveal className="relative overflow-hidden rounded-[2.5rem] bg-royal-gradient px-6 py-16 text-center sm:px-16">
-          <img src="/images/backgrounds/glass-blobs.svg" alt="" aria-hidden="true" className="absolute inset-0 h-full w-full object-cover opacity-30" />
+          <img src={`${BASE}images/backgrounds/glass-blobs.svg`} alt="" aria-hidden="true" className="absolute inset-0 h-full w-full object-cover opacity-30" />
           <div className="relative">
             <h2 className="font-display text-3xl sm:text-4xl font-bold text-ivory">Ready to Create a Lasting Memory?</h2>
             <p className="mx-auto mt-4 max-w-xl text-ivory/80">

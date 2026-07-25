@@ -5,6 +5,7 @@ import SEO from "../components/SEO";
 import PageHero from "../components/PageHero";
 import ProductCard from "../components/ProductCard";
 import { products, PRODUCT_CATEGORIES } from "../data/products";
+const BASE = import.meta.env.BASE_URL;
 
 export default function Products() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -47,7 +48,7 @@ export default function Products() {
         eyebrow="Our Catalogue"
         title="Shop Handcrafted Resin Gifts"
         description="Every piece is made to order — tap Enquire Now on WhatsApp to personalise yours."
-        image="/images/hero/hero-02.svg"
+        image={`${BASE}images/hero/hero-02.svg`}
       />
 
       <section className="container-xl py-14">

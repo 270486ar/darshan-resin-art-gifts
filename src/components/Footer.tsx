@@ -44,10 +44,16 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div>
-            <Link to="/" className="flex items-center gap-3 mb-4 focus-ring rounded-lg w-fit">
-              src={`${BASE}images/logo/logo.svg`} alt={`${business.name} logo`} className="h-12 w-12" />
-              <span className="font-display text-xl font-bold text-gold-200">{business.shortName}</span>
-            </Link>
+<Link to="/" className="flex items-center gap-3 mb-4 focus-ring rounded-lg w-fit">
+  <img
+    src={`${BASE}images/logo/logo.svg`}
+    alt={`${business.name} logo`}
+    className="h-12 w-12"
+  />
+  <span className="font-display text-xl font-bold text-gold-200">
+    {business.shortName}
+  </span>
+</Link>
             <p className="text-sm text-ivory/70 leading-relaxed max-w-xs">{business.description}</p>
             <div className="flex gap-3 mt-5">
               <a

@@ -48,7 +48,7 @@ export default function Header() {
         >
           <NavLink to="/" className="flex items-center gap-2 group focus-ring rounded-lg" aria-label={`${business.name} home`}>
             <img
-              src="/images/logo/logo.svg"
+              src={`${import.meta.env.BASE_URL}images/logo/logo.svg`}
               alt={`${business.name} logo`}
               className="h-10 w-10 sm:h-11 sm:w-11 transition-transform duration-300 group-hover:scale-105"
               width={44}

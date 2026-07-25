@@ -92,7 +92,7 @@ export default function About() {
 
       {/* Process */}
       <section className="relative py-20 sm:py-28 bg-royal-gradient overflow-hidden">
-        <img src="/images/backgrounds/abstract-pattern.svg" alt="" aria-hidden="true" className="absolute inset-0 h-full w-full object-cover opacity-30" />
+        <img src=`${import.meta.env.BASE_URL}images/backgrounds/abstract-pattern.svg' alt="" aria-hidden="true" className="absolute inset-0 h-full w-full object-cover opacity-30" />
         <div className="container-xl relative">
           <ScrollReveal className="text-center max-w-2xl mx-auto">
             <span className="section-eyebrow text-gold-300">How It's Made</span>

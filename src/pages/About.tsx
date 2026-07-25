@@ -31,7 +31,7 @@ export default function About() {
         eyebrow="Our Journey"
         title="The Story Behind Darshan Resin Art"
         description="A small studio in Villianur, Puducherry, pouring big love into every handcrafted piece."
-        image="/images/hero/hero-04.svg"
+        image=`${import.meta.env.BASE_URL}images/hero/hero-04.svg'
       />
 
       <section className="container-xl py-20 sm:py-28">

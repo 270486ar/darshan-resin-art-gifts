@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::selection {
+  background-color: #e6b736;
+  color: #251134;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #d4a017, #6f3c97);
+  border-radius: 999px;
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/60 dark:bg-white/5 backdrop-blur-xl border border-white/40 dark:border-white/10 shadow-glass;
+  }
+
+  .glass-strong {
+    @apply bg-white/80 dark:bg-charcoal/60 backdrop-blur-2xl border border-white/50 dark:border-white/10 shadow-glass-lg;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-gold-gradient px-6 py-3 font-semibold text-charcoal shadow-gold transition-transform duration-300 hover:scale-105 hover:shadow-lg active:scale-95;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-royal-500 dark:border-gold-400 px-6 py-3 font-semibold text-royal-700 dark:text-gold-300 transition-all duration-300 hover:bg-royal-500 hover:text-white dark:hover:bg-gold-400 dark:hover:text-charcoal;
+  }
+
+  .btn-whatsapp {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-3 font-semibold text-white shadow-lg transition-transform duration-300 hover:scale-105 active:scale-95;
+  }
+
+  .section-heading {
+    @apply font-display text-3xl sm:text-4xl md:text-5xl font-bold text-royal-900 dark:text-gold-200;
+  }
+
+  .section-eyebrow {
+    @apply font-body text-xs sm:text-sm uppercase tracking-[0.3em] text-gold-600 dark:text-gold-400 font-semibold;
+  }
+
+  .container-xl {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .focus-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold-400 focus-visible:ring-offset-2 focus-visible:ring-offset-transparent;
+  }
+}
+
+@layer utilities {
+  .text-gradient-gold {
+    background: linear-gradient(135deg, #f4dd95, #d4a017, #8f6410);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .text-gradient-royal {
+    background: linear-gradient(135deg, #a37aca, #6f3c97, #3d2153);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}

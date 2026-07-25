@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Darshan Resin Art & Gifts</title>
+    <!--
+      GitHub Pages serves this file for any unknown path (SPA deep links,
+      e.g. /darshan-resin-art-gifts/products). It redirects back to index.html
+      while preserving the intended path in sessionStorage, so React Router
+      can restore it once the app loads. This is the standard SPA fallback
+      trick for GitHub Pages (https://github.com/rafgraph/spa-github-pages).
+    -->
+    <script>
+      var pathSegmentsToKeep = 1; // keep "/darshan-resin-art-gifts"
+      var l = window.location;
+      l.replace(
+        l.protocol + "//" + l.hostname + (l.port ? ":" + l.port : "") +
+        l.pathname.split("/").slice(0, 1 + pathSegmentsToKeep).join("/") +
+        "/?redirect=" + encodeURIComponent(
+          l.pathname.slice(1).split("/").slice(pathSegmentsToKeep).join("/") + l.search + l.hash
+        )
+      );
+    </script>
+  </head>
+  <body></body>
+</html>

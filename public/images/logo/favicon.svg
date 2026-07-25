@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-hidden="true">
+<defs><radialGradient id="fg" cx="35%" cy="30%" r="80%"><stop offset="0%" stop-color="#f4dd95"/><stop offset="100%" stop-color="#6f3c97"/></radialGradient></defs>
+<rect width="64" height="64" rx="16" fill="#3d2153"/>
+<path d="M32 12 C42 26 48 34 48 42 A16 16 0 1 1 16 42 C16 34 22 26 32 12 Z" fill="url(#fg)"/>
+</svg>

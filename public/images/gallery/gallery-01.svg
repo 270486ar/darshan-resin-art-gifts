@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700" role="img" aria-hidden="true">
+<defs><linearGradient id="gg1" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#251134"/><stop offset="100%" stop-color="#6f3c97"/></linearGradient>
+    <filter id="gb1"><feGaussianBlur stdDeviation="18"/></filter></defs>
+<rect width="700" height="700" fill="url(#gg1)"/>
+<path d="M 459.7,161.5 Q 459.7,161.5 425.3,218.6 Q 391.0,275.7 339.2,310.9 Q 287.4,346.2 220.0,342.5 Q 152.5,338.7 145.0,271.4 Q 137.5,204.2 115.6,153.5 Q 93.8,102.8 123.2,43.5 Q 152.5,-15.8 221.1,-26.0 Q 289.7,-36.1 335.0,10.1 Q 380.2,56.3 419.9,108.9 Z" fill="#f4dd95" opacity="0.16" filter="url(#gb1)"/>
+<path d="M 426.1,277.5 Q 426.1,277.5 432.0,306.2 Q 437.8,334.9 411.0,348.5 Q 384.3,362.1 357.8,352.8 Q 331.3,343.5 322.2,320.7 Q 313.1,298.0 296.3,271.4 Q 279.5,244.7 300.3,219.3 Q 321.1,193.8 352.0,197.1 Q 383.0,200.3 406.0,213.9 Q 429.0,227.4 427.6,252.4 Z" fill="#f4dd95" opacity="0.25" filter="url(#gb1)"/>
+<path d="M 208.3,314.2 Q 208.3,314.2 175.9,332.3 Q 143.4,350.4 126.1,356.4 Q 108.7,362.4 76.8,386.2 Q 44.9,410.0 44.8,372.2 Q 44.7,334.4 46.6,314.9 Q 48.5,295.3 52.2,266.4 Q 55.9,237.4 84.1,241.6 Q 112.3,245.9 146.0,246.7 Q 179.7,247.5 194.0,280.8 Z" fill="#f4dd95" opacity="0.17" filter="url(#gb1)"/>
+<path d="M 424.6,526.5 Q 424.6,526.5 411.7,564.1 Q 398.9,601.7 363.9,619.8 Q 328.9,637.9 304.7,607.1 Q 280.5,576.2 251.5,567.2 Q 222.4,558.1 227.8,528.5 Q 233.3,498.9 249.2,474.5 Q 265.2,450.1 292.5,458.5 Q 319.8,466.8 339.4,475.8 Q 358.9,484.8 391.8,505.6 Z" fill="#f4dd95" opacity="0.19" filter="url(#gb1)"/>
+<path d="M439,663 Q516,597 478,639" stroke="#fdf9ec" stroke-width="2.3" fill="none" opacity="0.39" stroke-linecap="round"/>
+<path d="M101,82 Q15,130 5,158" stroke="#fdf9ec" stroke-width="2.0" fill="none" opacity="0.41" stroke-linecap="round"/>
+<path d="M383,44 Q295,-0 163,-27" stroke="#fdf9ec" stroke-width="1.5" fill="none" opacity="0.48" stroke-linecap="round"/>
+<path d="M317,210 Q360,243 464,258" stroke="#fdf9ec" stroke-width="1.8" fill="none" opacity="0.56" stroke-linecap="round"/>
+<path d="M511,202 Q621,187 751,110" stroke="#fdf9ec" stroke-width="1.2" fill="none" opacity="0.45" stroke-linecap="round"/>
+<circle cx="27" cy="468" r="3.4" fill="#f4dd95" opacity="0.53"/>
+<circle cx="613" cy="220" r="3.2" fill="#f4dd95" opacity="0.54"/>
+<circle cx="406" cy="319" r="3.6" fill="#f4dd95" opacity="0.68"/>
+<circle cx="332" cy="465" r="1.7" fill="#f4dd95" opacity="0.58"/>
+<circle cx="453" cy="695" r="3.6" fill="#f4dd95" opacity="0.41"/>
+<circle cx="270" cy="468" r="1.6" fill="#f4dd95" opacity="0.48"/>
+<circle cx="118" cy="82" r="1.6" fill="#f4dd95" opacity="0.61"/>
+<circle cx="91" cy="173" r="2.5" fill="#f4dd95" opacity="0.65"/>
+<circle cx="56" cy="314" r="2.9" fill="#f4dd95" opacity="0.65"/>
+<circle cx="573" cy="605" r="2.2" fill="#f4dd95" opacity="0.47"/>
+</svg>

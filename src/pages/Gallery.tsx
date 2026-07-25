@@ -15,7 +15,7 @@ export default function Gallery() {
         eyebrow="Visual Journal"
         title="Our Resin Art Gallery"
         description="A closer look at the textures, colours and craftsmanship behind every piece. Tap any image to zoom in."
-        image="/images/hero/hero-05.svg"
+        image=`${import.meta.env.BASE_URL}images/hero/hero-05.svg'
       />
       <section className="container-xl py-16 sm:py-20">
         <GalleryMasonry items={galleryItems} />
